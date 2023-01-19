@@ -15,15 +15,15 @@ html {
 }
 
 ::-webkit-scrollbar-track{
-    background: #c2d6d4;
+    background: #243763;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #e9967a;
+    background: #ff6e31;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: #555;
+    background: #fff;
 }
 
 section{
@@ -59,11 +59,12 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* styling hero */
 .hero{
     display: flex;
-    background: #c2d6d4;
+    background: #243763;
     height: 100vh;
-    color: #fff;
+    color: #ffebb7;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -77,64 +78,64 @@ section .title{
 .hero .hero-content .text1{
     font-size: 40px;
     font-weight: 100;
-    color: #e9967a;
+    color: #ff6e31;
 }
 
 .hero .hero-content .text2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color: #e9967a;
+    color: #ff6e31;
 }
 
 .hero .hero-content .text3{
     font-size: 40px;
     margin: 5px 0;
-    color: #e9967a;
+    color: #ff6e31;
 }
 
 .hero .hero-content .text3 span{
-    color: #233d5d;
+    color: #ffebb7;
     font-weight: 500;
 }
 
 .hero .hero-content a{
     display: inline-block;
-    background: #e9967a;
-    color: #fff;
+    background: #ff6e31;
+    color: #ffebb7;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #e9967a;
+    border: 2px solid #ff6e31;
     transition: all 0.3s ease;
 }
 
 .hero .hero-content a:hover{
-    color: #e9967a;
+    color: #ff6e31;
     background: none;
 }
 
 /* styling about */
 .about{
-    background: #f2e2da;
+    background: #ffebb7;
 }
 
 .about h2{
-    color: #233d5d;
+    color: #243763;
 }
 
 .about .about-content p{
     text-align: justify;
     font-size: 20px;
-    color: #233d5d;
+    color: #243763;
 }
 
 .about .about-content a{
     display: inline-block;
     background: #e9967a;
-    color: #fff;
+    color: #ffebb7;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -144,25 +145,30 @@ section .title{
     transition: all 0.3s ease;
 }
 
+.about .about-content .column .text{
+    font-size: 30px;
+    color: #ff6e31;
+}
+
 .about .about-content a:hover{
-    color: #233d5d;
+    color: #243763;
     background: none;
 }
 
 /* styling stack */
 .stack{
-    color: #233d5d;
-    background: #f2e2da;
+    color: #243763;
+    background: #ffebb7;
 }
 
 .stack .title::before{
-    background: #233d5d;
+    background: #243763;
 }
 
 .stack .title::after,
 .stack .stack-content .card{
     width: calc(33% - 20px);
-    background: #e9967a;
+    background: #ffebb7;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -171,7 +177,7 @@ section .title{
 }
 
 .stack .stack-content .card:hover{
-    background: #c2d6d4;
+    background: #ffebb7;
 }
 
 .stack .stack-content .card .box{
@@ -187,7 +193,7 @@ section .title{
 
 /* styling contact */
 .contact{
-    background-color: #f2e2da;
+    background-color: #ffebb7;
     color: #233d5d;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -196,14 +202,14 @@ section .title{
 
 contact h2{
     margin-bottom: 30px;
-    color: #233d5d;
+    color: #243763;
     font-weight: bold;
 }
 
 .detail-contact a{
     display: block;
     text-decoration: none;
-    color: #233d5d;
+    color: #243763;
     margin-bottom: 25px;
 }
 
